@@ -22,7 +22,6 @@ div.small{
 }
 
 div.text {
-    text-align:center;
     transition: 0.5s;
 }
 
@@ -30,9 +29,11 @@ div.text.one{
     font-family: mycustomfont;
     font-size:80px;
     color: rgb(255, 128, 49);
+    text-align: left;
 }
 
 div.text.two {
+    text-align: center;
     font-family: mycustomfont;
     font-size:60px;
     color: rgb(255, 153, 112)
@@ -42,4 +43,5 @@ div.text.three {
     font-family: mycustomfont;
     font-size:40px;
     color: rgb(255, 184, 153);
+    text-align: right;
 }
