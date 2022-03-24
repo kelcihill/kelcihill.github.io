@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+@font-face {
+    font-family: mycustomfont;
+    src:url('PF-FontBuilder-quiver-script.woff') format(woff);
+}
+
+div.poster{
+    background-color: #fdfcec;
+    width:75%;
+}
+
+div.small{
+    font-size:20px;
+    font-family: arial;
+    color: rgb(159, 212, 233);
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid rgb(159, 212, 233);
+}
+
+div.text {
+    text-align:center;
+    font-family: arial;
+    transition: 0.5s;
+}
+
+div.text.one{
+    font-size: 30px;
+    letter-spacing: 8px;
+    color: rgb(159, 212, 233);
+}
+
+div.text.two{
+    font-size: 60px;
+    letter-spacing: -6px;
+    color: rgb(216, 171, 193);
+    font-family: arial;
+}
+
+div.text.three{
+    font-size: 90px;
+    letter-spacing: -12px;
+    color: rgb(235, 148, 90);
+    font-family: arial;
+}

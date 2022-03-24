@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+@font-face{
+    font-family: mycustomfont;
+    src:url(meilandgorgeous.woff) format(woff);
+}
+
+div.poster{
+    background-color: #fcfbf5;
+    width:75%;
+}
+
+div.small{
+    font-size:15px;
+    font-family: Arial;
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+}
+
+div.text {
+    text-align:center;
+    transition: 0.5s;
+}
+
+div.text.one{
+    font-family: mycustomfont;
+    font-size:80px;
+    color: rgb(255, 128, 49);
+}
+
+div.text.two {
+    font-family: mycustomfont;
+    font-size:60px;
+    color: rgb(255, 153, 112)
+}
+
+div.text.three {
+    font-family: mycustomfont;
+    font-size:40px;
+    color: rgb(255, 184, 153);
+}
