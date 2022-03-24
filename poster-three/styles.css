@@ -3,8 +3,8 @@ body{
 }
 
 @font-face{
-    font-family: mycustomfont; 
-    src:url(PF-FontBuilder-quiver-script.woff) format(woff)
+    font-family: "mycustomfont"; 
+    src:url("PF-FontBuilder-quiver-script.woff") format(woff)
 }
 
 div.poster{
@@ -29,18 +29,18 @@ div.text {
 
 div.text.one{
     font-size:80px;
-    font-family: mycustomfont;
+    font-family: "mycustomfont";
     color: rgb(255, 109, 255);
 }
 
 div.text.two {
     font-size:60px;
-    font-family: mycustomfont;
+    font-family: "mycustomfont";
     color: rgb(162, 80, 255);
 }
 
 div.text.three {
     font-size:40px;
-    font-family: mycustomfont;
+    font-family: "mycustomfont";
     color: rgb(50, 180, 255);
 }
