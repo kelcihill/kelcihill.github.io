@@ -9,17 +9,17 @@ div.poster{
 
 @font-face{
     font-family: "mycustomfont";
-    src:url("AppleGaramond.woff") format(woff);
+    src:url("normal.woff") format(woff);
 }
 
 @font-face {
     font-family:"customfont";
-    src: url("AppleGaramond-Italic.woff") format(woff);
+    src: url("italic.woff") format(woff);
 }
 
 @font-face {
     font-family:"thecustomfont";
-    src: url("AppleGaramond-Bold.woff") format(woff);
+    src: url("bold.woff") format(woff);
 }
 
 div.container{
