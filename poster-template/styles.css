@@ -23,7 +23,9 @@ div.text {
     border-top: 1px solid black;
 }
 
-div.text.one{
+/* rule 1 */
+
+div.text.one {
     font-size:100px;
 }
 
@@ -33,4 +35,32 @@ div.text.two {
 
 div.text.three {
     font-size:30px;
+}
+
+/* rule 2 */
+
+div.text.one {
+    color: hotpink;
+}
+
+div.text.two {
+    color: lightskyblue;
+}
+
+div.text.three {
+    color:mediumpurple;
+}
+
+/* rule 3 */
+
+div.text.one {
+    text-align: center;
+}
+
+div.text.two {
+    text-align: left;
+}
+
+div.text.three {
+    text-align: right;
 }

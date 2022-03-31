@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div.poster{
+    background-color: rgb(255, 254, 232);
+    width:75%;
+}
+
+@font-face{
+    font-family: "mycustomfont";
+    src:url("AppleGaramond.woff") format(woff);
+}
+
+@font-face {
+    font-family:"customfont";
+    src: url("AppleGaramond-Italic.woff") format(woff);
+}
+
+@font-face {
+    font-family:"thecustomfont";
+    src: url("AppleGaramond-Bold.woff") format(woff);
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    overflow:hidden;
+}
+
+div.w1-3{
+    width: 33.3%;
+}
+
+div.w2-3{
+    width: 66.6%;
+}
+
+div.text {
+    transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one{
+    font-size: 50px;
+}
+
+div.text.two{
+    font-size: 55px;
+}
+
+div.text.three{
+    font-size: 60px;
+}
+
+/* rule 2 */
+
+div.text.one{
+    color: rgb(86, 50, 37);
+}
+
+div.text.two{
+    color: rgb(240, 162, 244);
+}
+
+div.text.three{
+    color: rgb(148, 179, 255);
+}
+
+/* rule 3 */
+
+div.text.one{
+    font-family:"thecustomfont";
+}
+
+div.text.two{
+    font-family: "customfont";
+}
+
+div.text.three{
+    font-family:"mycustomfont";
+}

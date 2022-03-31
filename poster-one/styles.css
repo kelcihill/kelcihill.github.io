@@ -38,12 +38,10 @@ div.text.two{
     font-size: 60px;
     letter-spacing: -6px;
     color: rgb(216, 171, 193);
-    font-family: arial;
 }
 
 div.text.three{
     font-size: 90px;
     letter-spacing: -12px;
     color: rgb(235, 148, 90);
-    font-family: arial;
 }

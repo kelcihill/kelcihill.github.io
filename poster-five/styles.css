@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+div.poster{
+    background-color: white;
+    width:75%;
+}
+
+@font-face{
+    font-family: "mycustomfont";
+    src:url("Coco-Sharp-Extrabold-trial.woff")format(woff)
+}
+
+div.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.col{
+    overflow:hidden;
+}
+
+div.w1-3{
+    width: 50%;
+}
+
+div.w2-3{
+    width: 50%;
+}
+
+div.text {
+    font-family:"mycustomfont";
+    transition: 0.5s;
+}
+
+/* rule 1 */
+
+div.text.one{
+    font-size: 50px;
+}
+
+div.text.two{
+    font-size: 55px;
+}
+
+div.text.three{
+    font-size: 60px;
+}
+
+/* rule 2 */
+
+div.text.one{
+    background-color: rgb(190, 200, 255);
+}
+
+div.text.two{
+    background-color: rgb(211, 250, 156);
+}
+
+div.text.three{
+    background-color: rgb(252, 180, 252);
+}
+
+/* rule 3 */
+
+div.text.one{
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+div.text.two{
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
+
+div.text.three{
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+}
