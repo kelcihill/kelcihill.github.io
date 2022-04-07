@@ -22,30 +22,33 @@ div.col{
 }
 
 div.w1-3{
-    width: 50%;
+    width: 32%;
 }
 
 div.w2-3{
-    width: 50%;
+    width: 65%;
 }
 
 div.text {
     font-family:"mycustomfont";
     transition: 0.5s;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    text-align: center;
 }
 
 /* rule 1 */
 
 div.text.one{
-    font-size: 50px;
+    font-size: 60px;
 }
 
 div.text.two{
-    font-size: 55px;
+    font-size: 70px;
 }
 
 div.text.three{
-    font-size: 60px;
+    font-size: 80px;
 }
 
 /* rule 2 */
@@ -64,17 +67,3 @@ div.text.three{
 
 /* rule 3 */
 
-div.text.one{
-    border:1px solid rgb(0, 0, 0);
-    border-radius: 30px;
-}
-
-div.text.two{
-    border:1px solid rgb(0, 0, 0);
-    border-radius: 30px;
-}
-
-div.text.three{
-    border:1px solid rgb(0, 0, 0);
-    border-radius: 30px;
-}

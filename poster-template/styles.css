@@ -3,34 +3,47 @@ body{
 }
 
 div.poster{
-    background-color: white;
+    background-color: rgb(255, 0, 0);
     width:75%;
+    background-image:url('aura.png');
+    background-size: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 div.small{
-    font-size:25px;
-    text-align:center;
+    font-size:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
     padding-bottom: 10px;
     padding-top: 10px;
     border-top: 1px solid black;
 }
 
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.w1-2{
+    width: 50%;
+}
+
 div.text {
     font-family:arial;
-    text-align:center;
+    text-align:left;
     text-transform:uppercase;
     transition: 0.5s;
-    border-top: 1px solid black;
 }
 
 /* rule 1 */
 
 div.text.one {
-    font-size:100px;
+    font-size:50px;
 }
 
 div.text.two {
-    font-size:60px;
+    font-size:40px;
 }
 
 div.text.three {
@@ -54,13 +67,15 @@ div.text.three {
 /* rule 3 */
 
 div.text.one {
-    text-align: center;
+    background-image: url(star.png);
+    background-size: 100px;
+    background-position: center;
+    background-repeat: no-repeat
 }
 
 div.text.two {
-    text-align: left;
-}
-
-div.text.three {
-    text-align: right;
+    background-image: url(star.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100px;
 }

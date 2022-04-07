@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+div.poster{
+    background-color: white;
+    width:75%;
+}
+
+div.small{
+    font-size:25px;
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+div.text {
+    font-family:arial;
+    text-align:center;
+    text-transform:uppercase;
+    transition: 0.5s;
+    border-top: 1px solid black;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:100px;
+}
+
+div.text.two {
+    font-size:60px;
+}
+
+div.text.three {
+    font-size:30px;
+}
+
+/* rule 2 */
+
+div.text.one {
+    color: hotpink;
+}
+
+div.text.two {
+    color: lightskyblue;
+}
+
+div.text.three {
+    color:mediumpurple;
+}
+
+/* rule 3 */
+
+div.text.one {
+    text-align: center;
+}
+
+div.text.two {
+    text-align: left;
+}
+
+div.text.three {
+    text-align: right;
+}

@@ -3,7 +3,7 @@ body{
 }
 
 div.poster{
-    background-color: rgb(255, 254, 232);
+    background-color: rgb(255, 255, 232);
     width:75%;
 }
 
@@ -60,15 +60,15 @@ div.text.three{
 /* rule 2 */
 
 div.text.one{
-    color: rgb(86, 50, 37);
+    color: rgb(158, 238, 136);
 }
 
 div.text.two{
-    color: rgb(240, 162, 244);
+    color: rgb(255, 108, 238);
 }
 
 div.text.three{
-    color: rgb(148, 179, 255);
+    color: rgb(41, 112, 255);
 }
 
 /* rule 3 */

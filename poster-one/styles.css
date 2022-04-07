@@ -8,18 +8,18 @@ body{
 }
 
 div.poster{
-    background-color: #fdfcec;
+    background-color: #fbfaee;
     width:75%;
 }
 
 div.small{
     font-size:20px;
     font-family: arial;
-    color: rgb(159, 212, 233);
+    color: rgb(173, 232, 255);
     text-align:center;
     padding-bottom: 10px;
     padding-top: 10px;
-    border-bottom: 2px solid rgb(159, 212, 233);
+    border-bottom: 2px solid rgb(173, 232, 255);
 }
 
 div.text {
@@ -31,17 +31,17 @@ div.text {
 div.text.one{
     font-size: 30px;
     letter-spacing: 8px;
-    color: rgb(159, 212, 233);
+    color: rgb(173, 232, 255);
 }
 
 div.text.two{
     font-size: 60px;
     letter-spacing: -6px;
-    color: rgb(216, 171, 193);
+    color: rgb(255, 186, 219);
 }
 
 div.text.three{
     font-size: 90px;
     letter-spacing: -12px;
-    color: rgb(235, 148, 90);
+    color: rgb(255, 155, 73);
 }
