@@ -51,15 +51,15 @@ div.text.three{
 /* rule 2 */
 
 div.text.one{
-    background-color: rgb(195, 247, 134);
+    background-color:rgb(195, 247, 134);
 }
 
 div.text.two{
-    background-color: rgb(255, 136, 97);
+    background-color:rgb(255, 136, 97);
 }
 
 div.text.three{
-    background-color: rgb(134, 255, 217);
+    background-color:rgb(134, 255, 217);
 }
 
 /* rule 3 */
