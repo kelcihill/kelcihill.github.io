@@ -9,7 +9,7 @@ div.poster{
 
 @font-face{
     font-family:"mycustomfont";
-    src:url("pro.woff");format:(woff);
+    src:url("pro.woff") format(woff);
 }
 
 div.container{
