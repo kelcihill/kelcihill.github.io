@@ -9,17 +9,17 @@ div.poster{
 
 @font-face{
     font-family: "mycustomfont";
-    src:url("normal.woff") format(woff);
+    src:url("normal.woff");format:(woff);
 }
 
 @font-face {
     font-family:"customfont";
-    src: url("italic.woff") format(woff);
+    src: url("italic.woff");format:(woff);
 }
 
 @font-face {
     font-family:"thecustomfont";
-    src: url("bold.woff") format(woff);
+    src: url("bold.woff");format:(woff);
 }
 
 div.container{
@@ -46,15 +46,15 @@ div.text {
 /* rule 1 */
 
 div.text.one{
-    font-size: 50px;
+    font-size: 48px;
 }
 
 div.text.two{
-    font-size: 55px;
+    font-size: 58px;
 }
 
 div.text.three{
-    font-size: 60px;
+    font-size: 68px;
 }
 
 /* rule 2 */
@@ -78,7 +78,7 @@ div.text.one{
 }
 
 div.text.two{
-    font-family: "customfont";
+    font-family:"customfont";
 }
 
 div.text.three{
