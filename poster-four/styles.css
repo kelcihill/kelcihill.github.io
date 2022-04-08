@@ -37,15 +37,15 @@ div.text {
 /* rule 1 */
 
 div.text.one{
-    font-size: 40px;
+    font-size: 60px;
 }
 
 div.text.two{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 div.text.three{
-    font-size: 60px;
+    font-size: 80px;
 }
 
 /* rule 2 */
