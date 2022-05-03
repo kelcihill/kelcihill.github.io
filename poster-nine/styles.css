@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+div.poster{
+    background-color: rgb(255, 255, 255);
+    width:75%;
+    background-image:url('aura.png');
+    background-size: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@font-face{
+    font-family:"mycustomfont";
+    src:url("old.woff"); format:(woff);
+}
+
+@font-face{
+    font-family:"mycustomfonttwo";
+    src:url("oldsih.woff"); format:(woff);
+}
+
+div.small{
+    font-size:10px;
+    font-family:"mycustomfonttwo";
+    color: rgb(244,148,84);
+    text-align:center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: 1px solid rgb(0, 0, 0);
+}
+
+.container {
+    display: flex; 
+    flex-wrap: wrap;
+}
+
+.w1-2{
+    width: 50%;
+}
+
+div.text {
+    text-align:center;
+    transition: 0.5s;
+    font-family: "mycustomfont";
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:28px;
+}
+
+div.text.two {
+    font-size:40px;
+}
+
+div.text.three {
+    font-size:60px;
+}
+
+/* rule 2 */
+
+div.text.one {
+    color: rgb(255, 255, 255);
+}
+
+div.text.two {
+    color: rgba(255, 255, 255, 0.334);
+}
+
+div.text.three {
+    color:transparent;
+}
+

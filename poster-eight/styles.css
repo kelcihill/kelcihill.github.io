@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+}
+
+div.poster{
+    background-color: rgb(255, 255, 255);
+    width:75%;
+    background-image:url('sky.png');
+    background-size: 1100px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@font-face{
+    font-family:"mycustomfont";
+    src:url("cocosharp-trial.woff"); format:(woff);
+}
+
+div.text {
+    font-family:"mycustomfont";
+    text-align:center;
+    transition: 0.5s;
+    color: white;
+}
+
+/* rule 1 */
+
+div.text.one {
+    font-size:80px;
+}
+
+div.text.two {
+    font-size:90px;
+}
+
+div.text.three {
+    font-size:100px;
+}
+
+/* rule 2 */
+
+div.text.one {
+    background-image: url(cloud.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 120px;
+    opacity: 0.8;
+}
+
+div.text.two {
+    background-image: url(cloud.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 140px;
+}
+
+div.text.three {
+    background-image: url(cloud.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    opacity: 0.4;
+}

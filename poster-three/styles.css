@@ -4,18 +4,27 @@ body{
 
 @font-face{
     font-family: "mycustomfont"; 
-    src:url("PF-FontBuilder-quiver-script.woff") format(woff)
+    src:url("myfont.woff") format(woff)
+}
+
+@font-face{
+    font-family: "mycustomfont2"; 
+    src:url("italic.woff") format(woff)
 }
 
 div.poster{
-    background-color: rgb(255, 254, 249);
+    background-color: rgb(255, 255, 253);
     width:75%;
+    background-image:url('back.png');
+    background-size: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 div.small{
-    color: rgb(27, 27, 27);
+    color: rgb(36, 36, 36);
     font-size:10px;
-    font-family: arial;
+    font-family: "mycustomfont2";
     text-align:center;
     padding-bottom: 10px;
     padding-top: 10px;
@@ -23,24 +32,35 @@ div.small{
 
 div.text {
     font-family:arial;
-    text-align:center;
     transition: 0.5s;
+    text-align: center;
+    font-family: "mycustomfont";
 }
 
 div.text.one{
-    font-size:80px;
-    font-family: "mycustomfont";
-    color: rgb(255, 109, 255);
+    font-size:120px;
 }
 
 div.text.two {
-    font-size:60px;
-    font-family: "mycustomfont";
-    color: rgb(162, 80, 255);
+    font-size:150px;
 }
 
 div.text.three {
-    font-size:40px;
-    font-family: "mycustomfont";
-    color: rgb(50, 180, 255);
+    font-size:180px;
+}
+
+div.text.one{
+    color: rgb(248,110,85);
+}
+
+div.text.two {
+    color: rgb(251,44,139);
+}
+
+div.text.three {
+    color: rgb(20,171,182);
+}
+
+div.text.one{
+    transform: rotate(180deg);
 }
